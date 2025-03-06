@@ -1,0 +1,15 @@
+{
+    "name": "colorbond-auto-qa",
+    "version": "1.1.23",
+    "main": "cypress.config.js",
+    "scripts": {
+      "cy": "cypress run"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+      "cypress": "^13.0"
+    }
+  }
