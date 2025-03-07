@@ -1,5 +1,5 @@
 {
-    "name": "colorbond-auto-qa",
+    "name": "promag-auto-qa",
     "version": "1.1.23",
     "main": "cypress.config.js",
     "scripts": {
