@@ -24,6 +24,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
         })
         cy.screenshot()
         Cypress.$('ul.dropdown-menu.triangle.dropdown-menu-end').show()
+        Cypress.$('div#navbarNav').css('display','block')
         cy.task('writeLine','select submenu digestive')
         cy.get('a.dropdown-item').each((val,index)=>{
           if(val.text() === 'Digestive'){
